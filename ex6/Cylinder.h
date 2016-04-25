@@ -2,7 +2,7 @@
 // Created by magomed on 09.04.16.
 //
 
-#include "shape.h"
+#include "Shape.h"
 
 #ifndef EX6_SYLINDER_H
 #define EX6_SYLINDER_H
@@ -18,7 +18,7 @@ public:
 
     void info();
 
-    int volum();
+    int volume();
 
     int area();
 

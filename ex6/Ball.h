@@ -1,7 +1,7 @@
 //
 // Created by magomed on 09.04.16.
 //
-#include "shape.h"
+#include "Shape.h"
 
 #ifndef EX6_BALL_H
 #define EX6_BALL_H
@@ -17,7 +17,7 @@ public:
 
     void info();
 
-    int volum();
+    int volume();
 
     int area();
 

@@ -18,7 +18,7 @@ void Cylinder::info() {
     cout << "shape is Cylinder" << endl;
 }
 
-int Cylinder::volum() {
+int Cylinder::volume() {
     return 3,14 * radius_ * radius_ * height_;
 }
 

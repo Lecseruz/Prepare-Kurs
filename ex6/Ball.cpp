@@ -2,7 +2,7 @@
 // Created by magomed on 09.04.16.
 //
 #include <iostream>
-#include "ball.h"
+#include "Ball.h"
 
 using namespace std;
 
@@ -15,10 +15,10 @@ Ball::Ball(int radius)
 Ball::~Ball() { }
 
 void Ball::info() {
-    cout << "shape is ball" << endl;
+    cout << "shape is Ball" << endl;
 }
 
-int Ball::volum() {
+int Ball::volume() {
     return 4 * 3, 14 * radius_ * radius_ * radius_ / 3;
 }
 
